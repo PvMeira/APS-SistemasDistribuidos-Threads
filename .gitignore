@@ -13,6 +13,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+.classpath
+.project
 
 # External tool builders
 .externalToolBuilders/
@@ -113,6 +115,13 @@ modules.xml
 *.idea
 # Sonarlint plugin
 .idea/sonarlint
+
+# Created by https://www.gitignore.io/api/git
+
+### Git ###
+*.orig
+
+# End of https://www.gitignore.io/api/git
 
 # End of https://www.gitignore.io/api/eclipse,intellij
 
