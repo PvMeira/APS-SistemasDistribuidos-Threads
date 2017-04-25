@@ -1,16 +1,19 @@
-package core;
+package core.useOfRunnable;
+
+import core.useOfThread.CustomThreadEven;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Created by pvmeira on 24/04/17.
+ * Created by pvmeira on 25/04/17.
  */
-public class CustomThreadEven extends Thread {
+public class EvenRunnable implements Runnable {
     private int total;
 
-    public CustomThreadEven(int totalValue) {
-        total = totalValue;
+    public EvenRunnable(int total) {
+        this.total = total;
+
     }
 
     @Override
